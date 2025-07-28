@@ -48,8 +48,7 @@ form {
 
 /* Estilização do "Esqueceu a senha?" */
 .esqueceu-senha {
-    width: 100%;
-    text-align: right;
+    align-self: flex-end;
 }
 
 .esqueceu-senha a {
