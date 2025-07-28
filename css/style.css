@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background: radial-gradient(#ac8bff, #ffeb7c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans';
+}
+
+/* Estilização da tela de Login */
+form {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 80px;
+    border-radius: 15px;
+    margin: 0;
+    gap: 36px;
+    box-shadow: #0000001f 0px 1px 3px, #0000003d 0px 1px 2px;
+}
+
+/* Título da tela de login */
+.titulo {
+    margin: 0;
+}
+
+/* Estilização dos campos Email e Senha */
+.campo-email, .campo-senha {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+/* Estilização do Input do Email e Senha */
+.campo-email input, .campo-senha input {
+    width: 300px;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    background: transparent;
+}
+
+.campo-email input:placeholder-shown {
+    font-family: 'Josefin Sans';
+}
+
+/* Estilização do "Esqueceu a senha?" */
+.esqueceu-senha {
+    width: 100%;
+    text-align: right;
+}
+
+.esqueceu-senha a {
+    text-decoration: none;
+    color: #757575;
+}
+
+.esqueceu-senha a:hover {
+    text-decoration: underline;
+    color: #3173ff;
+}
+
+/* Estilização do botão Entrar */
+.botao-entrar {
+    padding: 10px 50px;
+    font-family: 'Josefin Sans';
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffeb7c;
+}
+
+.botao-entrar:hover {
+    background-color: #ffe866;
+}
+
+/* Estilização do "Não possui conta?" */
+.cadastro {
+    margin: 0;
+}
+
+.cadastro a {
+    text-decoration: none;
+    color: #757575;
+}
+
+.cadastro a:hover {
+    text-decoration: underline;
+    color: #3173ff;
+}
